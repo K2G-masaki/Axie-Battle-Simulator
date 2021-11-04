@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>26022217245-cu2dajhdgbnf629uj00ljne6i9rjg8cc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.26022217245-cu2dajhdgbnf629uj00ljne6i9rjg8cc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyARUFAh4mSAKMuJU-2l78FKcxIkTJG4tiA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>26022217245</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Litchi.Axie-Battle-Simulator</string>
+	<key>PROJECT_ID</key>
+	<string>axie-pvp-battle-simulator</string>
+	<key>STORAGE_BUCKET</key>
+	<string>axie-pvp-battle-simulator.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:26022217245:ios:da1f62e71e72dc4ac368f4</string>
+</dict>
+</plist>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		839727179E369C4BE234A396 /* Pods_Axie_Battle_SimulatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D2B28D91E90DB4DFBE9432 /* Pods_Axie_Battle_SimulatorTests.framework */; };
+		C67EC549A9BCF2355F1EFF5C /* Pods_Axie_Battle_Simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2391AE00281FCEB73AE947FC /* Pods_Axie_Battle_Simulator.framework */; };
+		EEBE1B9DD31244CC5FC1F124 /* Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2E30DE8EFA17FE2CE4C267 /* Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests.framework */; };
 		F4838BF427300B2B00E0AEE0 /* Axie_Battle_SimulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838BF327300B2B00E0AEE0 /* Axie_Battle_SimulatorApp.swift */; };
 		F4838BF627300B2B00E0AEE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838BF527300B2B00E0AEE0 /* ContentView.swift */; };
 		F4838BF827300B2C00E0AEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4838BF727300B2C00E0AEE0 /* Assets.xcassets */; };
@@ -14,6 +17,20 @@
 		F4838C0527300B2D00E0AEE0 /* Axie_Battle_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838C0427300B2D00E0AEE0 /* Axie_Battle_SimulatorTests.swift */; };
 		F4838C0F27300B2D00E0AEE0 /* Axie_Battle_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838C0E27300B2D00E0AEE0 /* Axie_Battle_SimulatorUITests.swift */; };
 		F4838C1127300B2D00E0AEE0 /* Axie_Battle_SimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838C1027300B2D00E0AEE0 /* Axie_Battle_SimulatorUITestsLaunchTests.swift */; };
+		F4838C1E27300C2700E0AEE0 /* axie.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4838C1D27300C2700E0AEE0 /* axie.gif */; };
+		F4838C2027300C7400E0AEE0 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838C1F27300C7400E0AEE0 /* GifImage.swift */; };
+		F4838C2227300ECB00E0AEE0 /* ronin.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4838C2127300ECB00E0AEE0 /* ronin.gif */; };
+		F4838C24273015B600E0AEE0 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838C23273015B600E0AEE0 /* Lottie.swift */; };
+		F4838C26273016A500E0AEE0 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = F4838C25273016A500E0AEE0 /* loading.json */; };
+		F4838C28273017BA00E0AEE0 /* load.json in Resources */ = {isa = PBXBuildFile; fileRef = F4838C27273017BA00E0AEE0 /* load.json */; };
+		F4838C2A27301B7400E0AEE0 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4838C2927301B7400E0AEE0 /* Cards.swift */; };
+		F4B003152730BBFF00AEB508 /* AxieBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B003142730BBFF00AEB508 /* AxieBody.swift */; };
+		F4B003172731292500AEB508 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B003162731292400AEB508 /* Simulation.swift */; };
+		F4B0031927312A2200AEB508 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0031827312A2200AEB508 /* BottomSheet.swift */; };
+		F4B0031B273164FF00AEB508 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0031A273164FF00AEB508 /* Class.swift */; };
+		F4B0031D27321FED00AEB508 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0031C27321FED00AEB508 /* UserModel.swift */; };
+		F4B0032227326B9F00AEB508 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B0032127326B9E00AEB508 /* GoogleService-Info.plist */; };
+		F4B003242732902B00AEB508 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B003232732902B00AEB508 /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BBCA71B6C414229613F389F /* Pods-Axie Battle Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axie Battle Simulator.release.xcconfig"; path = "Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator.release.xcconfig"; sourceTree = "<group>"; };
+		1F2E30DE8EFA17FE2CE4C267 /* Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2391AE00281FCEB73AE947FC /* Pods_Axie_Battle_Simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Axie_Battle_Simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACB582C4272748B413545C2 /* Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0B4F82250B886DF83D60C7 /* Pods-Axie Battle SimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axie Battle SimulatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Axie Battle SimulatorTests/Pods-Axie Battle SimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A15B8933650751394805A4BA /* Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1D2B28D91E90DB4DFBE9432 /* Pods_Axie_Battle_SimulatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Axie_Battle_SimulatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C258811164FE780CEEDA39 /* Pods-Axie Battle Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axie Battle Simulator.debug.xcconfig"; path = "Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3C2767189DF65F334FC1AE /* Pods-Axie Battle SimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axie Battle SimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-Axie Battle SimulatorTests/Pods-Axie Battle SimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		F4838BF027300B2B00E0AEE0 /* Axie Battle Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Axie Battle Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4838BF327300B2B00E0AEE0 /* Axie_Battle_SimulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axie_Battle_SimulatorApp.swift; sourceTree = "<group>"; };
 		F4838BF527300B2B00E0AEE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +70,20 @@
 		F4838C0A27300B2D00E0AEE0 /* Axie Battle SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Axie Battle SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4838C0E27300B2D00E0AEE0 /* Axie_Battle_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axie_Battle_SimulatorUITests.swift; sourceTree = "<group>"; };
 		F4838C1027300B2D00E0AEE0 /* Axie_Battle_SimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axie_Battle_SimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4838C1D27300C2700E0AEE0 /* axie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = axie.gif; sourceTree = "<group>"; };
+		F4838C1F27300C7400E0AEE0 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		F4838C2127300ECB00E0AEE0 /* ronin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ronin.gif; sourceTree = "<group>"; };
+		F4838C23273015B600E0AEE0 /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		F4838C25273016A500E0AEE0 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		F4838C27273017BA00E0AEE0 /* load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load.json; sourceTree = "<group>"; };
+		F4838C2927301B7400E0AEE0 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		F4B003142730BBFF00AEB508 /* AxieBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxieBody.swift; sourceTree = "<group>"; };
+		F4B003162731292400AEB508 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		F4B0031827312A2200AEB508 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		F4B0031A273164FF00AEB508 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		F4B0031C27321FED00AEB508 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F4B0032127326B9E00AEB508 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4B003232732902B00AEB508 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67EC549A9BCF2355F1EFF5C /* Pods_Axie_Battle_Simulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839727179E369C4BE234A396 /* Pods_Axie_Battle_SimulatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +107,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBE1B9DD31244CC5FC1F124 /* Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		808FB1F3B1593B1609442912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2391AE00281FCEB73AE947FC /* Pods_Axie_Battle_Simulator.framework */,
+				1F2E30DE8EFA17FE2CE4C267 /* Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests.framework */,
+				B1D2B28D91E90DB4DFBE9432 /* Pods_Axie_Battle_SimulatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2CFD9F024A068CA93E05918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7C258811164FE780CEEDA39 /* Pods-Axie Battle Simulator.debug.xcconfig */,
+				0BBCA71B6C414229613F389F /* Pods-Axie Battle Simulator.release.xcconfig */,
+				4ACB582C4272748B413545C2 /* Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.debug.xcconfig */,
+				A15B8933650751394805A4BA /* Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.release.xcconfig */,
+				7D0B4F82250B886DF83D60C7 /* Pods-Axie Battle SimulatorTests.debug.xcconfig */,
+				CD3C2767189DF65F334FC1AE /* Pods-Axie Battle SimulatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F4838BE727300B2B00E0AEE0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +144,8 @@
 				F4838C0327300B2D00E0AEE0 /* Axie Battle SimulatorTests */,
 				F4838C0D27300B2D00E0AEE0 /* Axie Battle SimulatorUITests */,
 				F4838BF127300B2B00E0AEE0 /* Products */,
+				D2CFD9F024A068CA93E05918 /* Pods */,
+				808FB1F3B1593B1609442912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +164,21 @@
 			children = (
 				F4838BF327300B2B00E0AEE0 /* Axie_Battle_SimulatorApp.swift */,
 				F4838BF527300B2B00E0AEE0 /* ContentView.swift */,
+				F4B003142730BBFF00AEB508 /* AxieBody.swift */,
+				F4B0031A273164FF00AEB508 /* Class.swift */,
+				F4838C2927301B7400E0AEE0 /* Cards.swift */,
+				F4B003232732902B00AEB508 /* Memo.swift */,
+				F4838C1F27300C7400E0AEE0 /* GifImage.swift */,
+				F4B003162731292400AEB508 /* Simulation.swift */,
+				F4B0031827312A2200AEB508 /* BottomSheet.swift */,
+				F4838C2127300ECB00E0AEE0 /* ronin.gif */,
+				F4838C1D27300C2700E0AEE0 /* axie.gif */,
 				F4838BF727300B2C00E0AEE0 /* Assets.xcassets */,
+				F4B0032127326B9E00AEB508 /* GoogleService-Info.plist */,
+				F4838C23273015B600E0AEE0 /* Lottie.swift */,
+				F4838C27273017BA00E0AEE0 /* load.json */,
+				F4838C25273016A500E0AEE0 /* loading.json */,
+				F4B0031C27321FED00AEB508 /* UserModel.swift */,
 				F4838BF927300B2C00E0AEE0 /* Preview Content */,
 			);
 			path = "Axie Battle Simulator";
@@ -134,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4838C1427300B2D00E0AEE0 /* Build configuration list for PBXNativeTarget "Axie Battle Simulator" */;
 			buildPhases = (
+				A88C4D6A5A078A69180EA8FB /* [CP] Check Pods Manifest.lock */,
 				F4838BEC27300B2B00E0AEE0 /* Sources */,
 				F4838BED27300B2B00E0AEE0 /* Frameworks */,
 				F4838BEE27300B2B00E0AEE0 /* Resources */,
+				2BBDF5515CE4CA56AB4DDF3A /* [CP] Embed Pods Frameworks */,
+				C9A8A469C9DFE25614FEF141 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4838C1727300B2D00E0AEE0 /* Build configuration list for PBXNativeTarget "Axie Battle SimulatorTests" */;
 			buildPhases = (
+				082402AFF845D41ED670EE75 /* [CP] Check Pods Manifest.lock */,
 				F4838BFC27300B2D00E0AEE0 /* Sources */,
 				F4838BFD27300B2D00E0AEE0 /* Frameworks */,
 				F4838BFE27300B2D00E0AEE0 /* Resources */,
@@ -169,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4838C1A27300B2D00E0AEE0 /* Build configuration list for PBXNativeTarget "Axie Battle SimulatorUITests" */;
 			buildPhases = (
+				A073A30C7B77608CB21BB52B /* [CP] Check Pods Manifest.lock */,
 				F4838C0627300B2D00E0AEE0 /* Sources */,
 				F4838C0727300B2D00E0AEE0 /* Frameworks */,
 				F4838C0827300B2D00E0AEE0 /* Resources */,
+				485BAC451519A7BAB91D96A3 /* [CP] Embed Pods Frameworks */,
+				3A72DDC043647CA6EF168384 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +322,11 @@
 			files = (
 				F4838BFB27300B2C00E0AEE0 /* Preview Assets.xcassets in Resources */,
 				F4838BF827300B2C00E0AEE0 /* Assets.xcassets in Resources */,
+				F4838C28273017BA00E0AEE0 /* load.json in Resources */,
+				F4838C1E27300C2700E0AEE0 /* axie.gif in Resources */,
+				F4838C2227300ECB00E0AEE0 /* ronin.gif in Resources */,
+				F4838C26273016A500E0AEE0 /* loading.json in Resources */,
+				F4B0032227326B9F00AEB508 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +346,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		082402AFF845D41ED670EE75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Axie Battle SimulatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBDF5515CE4CA56AB4DDF3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A72DDC043647CA6EF168384 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485BAC451519A7BAB91D96A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A073A30C7B77608CB21BB52B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88C4D6A5A078A69180EA8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Axie Battle Simulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A8A469C9DFE25614FEF141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Axie Battle Simulator/Pods-Axie Battle Simulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4838BEC27300B2B00E0AEE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4838C2A27301B7400E0AEE0 /* Cards.swift in Sources */,
+				F4838C24273015B600E0AEE0 /* Lottie.swift in Sources */,
+				F4B0031927312A2200AEB508 /* BottomSheet.swift in Sources */,
+				F4B0031B273164FF00AEB508 /* Class.swift in Sources */,
 				F4838BF627300B2B00E0AEE0 /* ContentView.swift in Sources */,
 				F4838BF427300B2B00E0AEE0 /* Axie_Battle_SimulatorApp.swift in Sources */,
+				F4B003242732902B00AEB508 /* Memo.swift in Sources */,
+				F4B003172731292500AEB508 /* Simulation.swift in Sources */,
+				F4B003152730BBFF00AEB508 /* AxieBody.swift in Sources */,
+				F4B0031D27321FED00AEB508 /* UserModel.swift in Sources */,
+				F4838C2027300C7400E0AEE0 /* GifImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +653,7 @@
 		};
 		F4838C1527300B2D00E0AEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C258811164FE780CEEDA39 /* Pods-Axie Battle Simulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +666,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -443,6 +685,7 @@
 		};
 		F4838C1627300B2D00E0AEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBCA71B6C414229613F389F /* Pods-Axie Battle Simulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +698,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -473,6 +717,7 @@
 		};
 		F4838C1827300B2D00E0AEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0B4F82250B886DF83D60C7 /* Pods-Axie Battle SimulatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +743,7 @@
 		};
 		F4838C1927300B2D00E0AEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3C2767189DF65F334FC1AE /* Pods-Axie Battle SimulatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +769,7 @@
 		};
 		F4838C1B27300B2D00E0AEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACB582C4272748B413545C2 /* Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +793,7 @@
 		};
 		F4838C1C27300B2D00E0AEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15B8933650751394805A4BA /* Pods-Axie Battle Simulator-Axie Battle SimulatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
