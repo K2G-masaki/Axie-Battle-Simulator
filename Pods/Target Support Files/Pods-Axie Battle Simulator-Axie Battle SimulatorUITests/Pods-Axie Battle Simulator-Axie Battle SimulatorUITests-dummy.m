@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests
+@end

@@ -1,0 +1,6 @@
+framework module Pods_Axie_Battle_Simulator_Axie_Battle_SimulatorUITests {
+  umbrella header "Pods-Axie Battle Simulator-Axie Battle SimulatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
